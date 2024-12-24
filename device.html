@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блоки pocket codik</title>
+    <style>
+        body {
+            background-color: #04222c; /* Темный цвет фона */
+            font-family: Arial, sans-serif;
+            color: white; /* Цвет текста */
+            margin: 0; /* Убираем отступы у body */
+            padding: 20px; /* Отступы вокруг содержимого */
+        }
+        .link-container {
+            position: absolute; /* Абсолютное позиционирование */
+            top: 20px; /* Отступ сверху */
+            left: 20px; /* Отступ слева */
+        }
+        .back-button {
+            background-image: url('img/back.png'); /* Фоновое изображение для кнопки */
+            background-size: cover; /* Масштабируем изображение */
+            width: 50px; /* Ширина кнопки */
+            height: 50px; /* Высота кнопки */
+            border: none; /* Убираем рамку */
+            cursor: pointer; /* Курсор в виде указателя при наведении */
+        }
+        .content {
+            margin-top: 100px; /* Отступ сверху для основного содержимого */
+        }
+    </style>
+</head>
+<body>
+    <div class="link-container">
+        <a href="index.html">
+            <button class="back-button"></button> <!-- Кнопка с изображением -->
+        </a>
+    </div>
+    <div class="content">
+        <h1>Добро пожаловать на страницу!</h1>
+        <p>Это пример случайного текста. Вы можете заменить его на свой собственный контент.</p>
+        <p>Здесь вы можете добавить информацию о вашем проекте или любые другие данные.</p>
+        <p>Например, вот несколько случайных фактов:</p>
+        <ul>
+            <li>Слон — единственное млекопитающее, не умеющее прыгать.</li>
+            <li>Существует более 2000 видов растений, которые едят насекомых.</li>
+            <li>У пчел есть пять глаз.</li>
+            <li>Человеческое тело состоит примерно на 60% из воды.</li>
+        </ul>
+    </div>
+</body>
+</html>
