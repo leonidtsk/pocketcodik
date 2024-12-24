@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блоки pocket codik</title>
+    <style>
+        body {
+            background-color: #04222c; /* Темный цвет фона */
+            font-family: Arial, sans-serif;
+            color: white; /* Цвет текста */
+            margin: 0; /* Убираем отступы у body */
+            padding: 20px; /* Отступы вокруг содержимого */
+        }
+        .header {
+            display: flex; /* Используем flexbox для выравнивания */
+            align-items: center; /* Выравниваем по вертикали */
+            margin-bottom: 20px; /* Отступ снизу для заголовка */
+        }
+        .link-container {
+            margin-right: 20px; /* Отступ справа от кнопки */
+        }
+        .back-button {
+            background-image: url('img/back.png'); /* Фоновое изображение для кнопки */
+            background-size: cover; /* Масштабируем изображение */
+            width: 50px; /* Ширина кнопки */
+            height: 50px; /* Высота кнопки */
+            border: none; /* Убираем рамку */
+            cursor: pointer; /* Курсор в виде указателя при наведении */
+            background-color: transparent; /* Прозрачный фон */
+        }
+        h1 {
+            font-size: 2.5em; /* Размер заголовка */
+            margin: 0; /* Убираем отступы у заголовка */
+        }
+        .content {
+            text-align: left; /* Выравнивание текста по левой стороне */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="link-container">
+            <a href="index.html">
+                <button class="back-button"></button> <!-- Кнопка с изображением -->
+            </a>
+        </div>
+        <h1>Управление</h1>
+    </div>
+    <div class="content">
+        <p>Поместить в X Y - Помещает объект в указанные координаты</p>
+    </div>
+</body>
+</html>
